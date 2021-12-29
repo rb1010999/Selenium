@@ -21,8 +21,6 @@ public class Login_Heirloom{
 				Driver.findElement(By.xpath("//span[normalize-space()='Login']")).click();
 				Thread.sleep(1000);
 				
-				Driver.findElement(By.xpath("//img[@alt='Collapse Menu']")).click();
-				Thread.sleep(1000);
 			}
 
 		
