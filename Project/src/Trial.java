@@ -53,8 +53,10 @@ public class Trial {
 		
 		Driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[5]/ul[1]/li[1]/span[1]/a[1]/div[1]/label[1]/i[1]")).click();  //CHECKBOX
 		
-		js.executeScript("window.scrollBy(0,250)","");
-		Thread.sleep(1000);
+		js.executeScript("window.scrollBy(0,1000)","");
+		Thread.sleep(1000);								// Scroll down screen
+		
+		
 		
 		
 	}
